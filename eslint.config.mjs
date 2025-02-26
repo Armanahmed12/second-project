@@ -13,10 +13,7 @@ export default [
       "prefer-const": "error",
       "no-console": "warn",
       "no-undef": "error",
-    },
-    globals: {
-      process: "readonly",
-    },
+    }
   },
   {
     ignores: [".node_modules/*", "dist/*"],
